@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+		<t t-extend="Sidebar">
+			 <t t-jquery=".oe_sidebar" t-operation="append">
+      			<button id="" style="margin-bottom:2px;" class="oe_document_scan oe_button btn btn-primary">Scanner..</button>
+      			<input type="text"  class="oe_document_scan_name" />
+    		</t>
+                 
+
+   
+		</t>
+</templates>
