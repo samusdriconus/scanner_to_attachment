@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<template id="scan_asset_backend" name="scan.assets.backend" inherit_id="web.assets_backend">
+			<xpath expr="." position="inside">
+                <script type="text/javascript" src="/scan_document/static/src/js/scan_document.js"/>
+            </xpath>
+		</template>
+	</data>
+</openerp>
