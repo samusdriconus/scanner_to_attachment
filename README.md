@@ -7,6 +7,7 @@ Odoo module to scan automatically and store the scanned document in attachements
     -Python (2.7 or 3.X)
     -flask
     -flask_cors
+    -Naps2 (console scanning tool)
     
  Server Machine:
      -Odoo 8
